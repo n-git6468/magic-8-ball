@@ -13,4 +13,4 @@
    "Very doubtful!"])
 
 (defn fortunes []
-  (->> potential-fortunes count rand-int (nth potential-fortunes) print))
+  (->> potential-fortunes count rand-int (nth potential-fortunes) println))
